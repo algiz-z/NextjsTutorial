@@ -1,0 +1,7 @@
+[
+    {"id": "1", "title": "studied Nextjs!", "content": "studied Nextjs by reading a book at Zenn."},
+    {"id": "2", "title": "ate curry!", "content": "ate curry at my house cuz i had a day off."},
+    {"id": "3", "title": "bought a new PC.", "content": "my old PC broke, so got a new one."},
+    {"id": "4", "title": "page rendering", "content": "couldn't understand SSR, SSG, ISR."},
+    {"id": "5", "title": "about SSR, SSG, ISR", "content": "making this with SSG."}
+]
