@@ -9,7 +9,7 @@ interface TBlog {
 export const dynamicParams = false
 
 export async function generateStaticParams() {
-    const res = await fetch('http://localhost:3000/api/blog/')
+    const res = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/blog/`)
     const blogData = await res.json()
 
     console.log(blogData)
@@ -20,7 +20,7 @@ export async function generateStaticParams() {
 }
 
 const getBlogArticle = async (id: string) => {
-    const res = await fetch(`http://localhost:3000/api/blog/${id}`)
+    const res = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/blog/${id}`)
     const blogArticle = await res.json()
 
     // if (res.status === 404){

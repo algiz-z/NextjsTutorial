@@ -2,21 +2,6 @@
 
 import {FormEvent, useState} from "react"
 
-// import { Metadata } from "next"
-// export const metadata: Metadata = {
-//   title: 'contact',
-//   description: 'contact to site owner',
-//   openGraph:{
-//     title: 'contact',
-//     description: 'contact to site owner',
-//     url: '<url of the site>',
-//     siteName: 'contact page',
-//     locale: 'jp',
-//     type: 'article',
-//   }
-// }
-
-
 const ContactPage = () => {
     const [content, setContent] = useState<string>('')
     const [isLoading, setIsLoading] = useState<boolean>(false)
