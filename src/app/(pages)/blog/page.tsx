@@ -1,19 +1,5 @@
 import Link from "next/link"
 
-import { Metadata } from "next"
-export const metadata: Metadata = {
-  title: 'blog',
-  description: 'articles of this site',
-  openGraph:{
-    title: 'blog',
-    description: 'articles of this site',
-    url: '<url of the site>',
-    siteName: 'blog articles',
-    locale: 'jp',
-    type: 'article',
-  }
-}
-
 interface TBlog {
     id: string;
     title: string;
